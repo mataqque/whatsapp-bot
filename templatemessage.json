@@ -1,0 +1,76 @@
+// message with buttons
+{
+	"jid": "51918176352@s.whatsapp.net",
+	"type": "number",
+	"message": {
+		"text": "Hi it's a template message",
+		"footer": "Hello World",
+		"buttons": [
+			{ "buttonId": "id1", "buttonText": { "displayText": "Option 1" }, "type": 1 },
+			{ "buttonId": "id2", "buttonText": { "displayText": "Option 2" }, "type": 2 },
+			{ "buttonId": "id3", "buttonText": { "displayText": "Option 3" }, "type": 3 }
+		],
+		"templateButtons": [
+			{ "index": 1, "urlButton": { "displayText": "⭐ Star Baileys on GitHub!", "url": "https://github.com/adiwajshing/Baileys" } },
+			{ "index": 2, "callButton": { "displayText": "Call me!", "phoneNumber": "+1 (234) 5678-901" } },
+			{ "index": 3, "quickReplyButton": { "displayText": "This is a reply, just like normal buttons!", "id": "id-like-buttons-message" } }
+		]
+	},
+	"options": {}
+}
+https://ativa.cosapiinmobiliaria.com.pe/static/media/Sala%20de%20Espera-100.ee81e81c9e63a19cbf76.jpg
+{
+	"jid": "51918176352@s.whatsapp.net",
+	"type": "number",
+	"message": {
+    "text": "This is a list",
+    "footer": "nice footer, link: https://google.com",
+    "title": "Amazing boldfaced list title",
+    "buttonText": "Required, text on the button to view the list",
+    "sections":[
+        {
+            "title": "Section 1",
+            "rows": [
+                {"title": "Option 1", "rowId": "option1"},
+                {"title": "Option 2", "rowId": "option2", "description": "This is a description"}
+            ]
+        },
+        {
+          "title": "Section 2",
+          "rows": [
+              {"title": "Option 3", "rowId": "option3"},
+              {"title": "Option 4", "rowId": "option4", "description": "This is a description V2"}
+          ]
+        },
+    ]
+  },
+}
+
+{
+    "image": {"url": "https://example.com/image.jpeg"},
+    "caption": "Hi it's button message",
+    "footer": "Hello World",
+    "buttons": {
+      {"buttonId": "id1", "buttonText": {"displayText": "Button 1"}, "type": 1},
+      {"buttonId": "id2", "buttonText": {"displayText": "Button 2"}, "type": 1},
+    },
+    "headerType": 4
+}
+
+{
+useTemplateButtons: true,
+createChat: true,
+buttons: [
+{
+"url": "https://wa.me/558196302385",
+"text": "Fale conosco"
+},
+{
+"url": "https://www.hci.com.br/",
+"text": "Acesse nosso site"
+},
+{
+"id": "001",
+"text": "Curti"
+},
+],
